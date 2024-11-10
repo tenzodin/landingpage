@@ -39,8 +39,9 @@ body {
 }
 
 a {
-    color: white;
+    color: #5281EB;
     text-decoration: none;
+    font-family: "Arimo", sans-serif;
 }
 
 .header-text {
@@ -48,152 +49,16 @@ a {
     margin: 0;
 }
 
-img {
-    width: auto;
-    height: 12.5em;
-    border-radius: 0.3125em;
-}
 
-.hero-second {
-    color: #E5E7EB;
-}
-
-.cta-button, .cta-button-2 {
-    transition: background-color 0.3s;
-    background-color: #3882F6;
-    font-size: 0.9375em;
-    color: white;
-    border-radius: 0.3125em;
-    padding: 0.5em 1em;
-    cursor: pointer;
-    box-shadow: none;
-    border: none;
-    outline: none;
-}
-
-.cta-button:hover, .cta-button-2:hover {
-    background-color: #759abd; /* New button background color on hover */
-}
-
-.container-3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2em 0;
-}
-
-.actual-life {
-    color: #1F2937;
-    font-size: 2.25em;
-    text-align: center;
-    margin-bottom: 1.56em;
-}
 
 .section-1 {
-    background-color: #1f2937;
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 2em 0;
 }
 
-.images {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    gap: 2.5em;
-    flex-wrap: wrap;
-    flex-grow: 1;
-    width: 80%;
-    margin-bottom: 6.25em;
-    text-align: center;
-}
-
-.section-3 {
-    background-color: #E5E7EB;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2em 0;
-}
-
-.container-4 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 1.875em;
-    flex-grow: 1;
-    width: 50%;
-}
-
-.quote {
-    font-size: 2.25em;
-    font-style: italic;
-    color: #1F2937;
-    text-align: center;
-    margin: 0 0 0.5em 0;
-}
-
-.quote-by {
-    font-weight: bold;
-    text-align: end;
-    width: 100%;
-    margin: 0;
-}
-
-.section-4 {
-    margin: 1.25em auto;
-    padding: 1.56em;
-    display: flex;
-    justify-content: center;
-    background-color: #f9f9f9; /* Optional: Different background for CTA */
-}
-
-.container-5 {
-    padding: 1.25em 2em;
-    background-color: #3882F6;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    border-radius: 0.3125em;
-    text-align: center;
-}
-
-.call-to-action {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 1em;
-}
-
-.cto-head {
-    color: white;
-    margin: 0 0 0.5em 0;
-    width: 100%;
-    font-size: 1.5em;
-}
-
-.cto-body {
-    color: #E5E7EB;
-    margin: 0;
-    width: 100%;
-    font-size: 1em;
-}
-
-.section-5 {
-    background-color: #1F2937;
-    padding: 1em 0;
-}
-
-.container-6 {
-    text-align: center;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 /* Modal Styles */
 .modal {
