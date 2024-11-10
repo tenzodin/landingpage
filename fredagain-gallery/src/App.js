@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './components/Header';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import ImageGrid from './components/ImageGrid';
 import ScrollingText from './components/ScrollingText';
 import Footer from './components/Footer';
@@ -98,12 +99,17 @@ function App() {
   ];
 
   return (
-    <div className="App">
-      <Header />
-      <ImageGrid images={images} />
-      <ScrollingText />
-      <Footer />
-    </div>
+    <Router>
+      <div className="App">
+        <Header />
+        <Routes>
+          <Route path="/music" element={<Music />} />
+          {/* Add other routes here */}
+        </Routes>
+        <ScrollingText />
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
